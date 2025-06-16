@@ -1,7 +1,5 @@
 Hola
-===
+=====
 
-.. autosummary::
-   :toctree: generated
 
-   lumache
+Hola
