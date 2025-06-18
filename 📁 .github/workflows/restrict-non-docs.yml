@@ -1,0 +1,22 @@
+name: Restrict Changes Outside /docs
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check_docs_folder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v3
+
+      - name: Ensure only /docs is modified
+        run: |
+          CHANGED=$(git diff --name-only origin/main...HEAD | grep -v '^docs/')
+          if [ -n "$CHANGED" ]; then
+            echo "⛔️ Solo se permiten cambios dentro de /docs. Cambios encontrados fuera:"
+            echo "$CHANGED"
+            exit 1
+          fi
