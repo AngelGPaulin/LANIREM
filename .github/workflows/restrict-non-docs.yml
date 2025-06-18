@@ -9,22 +9,29 @@ jobs:
   check-docs-folder:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout PR branch
         uses: actions/checkout@v3
+
+      - name: Fetch main branch
+        run: git fetch origin main
 
       - name: Ensure only /docs is modified
         run: |
-          git fetch origin main || exit 0
-
-          if git rev-parse origin/main >/dev/null 2>&1; then
+          # Verifica si hay un merge base válido
+          if git merge-base --is-ancestor origin/main HEAD; then
             CHANGED=$(git diff --name-only origin/main...HEAD | grep -v '^docs/')
             if [ -n "$CHANGED" ]; then
-              echo "⛔️ Solo se permiten cambios dentro de la carpeta /docs. Los siguientes archivos están fuera:"
+              echo "❌ Solo se permiten cambios dentro de la carpeta /docs. Encontrados archivos fuera:"
               echo "$CHANGED"
               exit 1
             else
-              echo "✅ Solo se modificó la carpeta /docs"
+              echo "✅ Todo bien. Solo cambios dentro de /docs."
             fi
           else
-            echo "🟡 No se encontró origin/main aún. Saltando validación por ser primer push."
+            echo "⚠️ Esta rama no deriva de 'main'. Esto pasa cuando se crean cambios desde GitHub directamente."
+            echo "🛠️ Por favor, crea una rama desde 'main' antes de hacer cambios:"
+            echo ""
+            echo "   git checkout -b nueva-rama origin/main"
+            echo ""
+            exit 1
           fi
