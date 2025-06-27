@@ -1,9 +1,6 @@
 Avanzado
 ========
 
-## Esto es una prueba de lconcha
-=================================
-
 ## :doc:`Bash_Permisos` 
 
 Los permisos de archivos determinan los usuarios que pueden interactuar con éstos. Quién puede modificar, borrar o mover los mismos.

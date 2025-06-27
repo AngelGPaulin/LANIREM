@@ -58,6 +58,8 @@ Contenido
 
    Bash/Bash
    Bash/Bash_Avanzado
+   Bash/Bash_Avanzado/Bash_Comrpimir
+   Bash/Bash_Comrpimir
 
 .. toctree::
     :maxdepth: 1
