@@ -53,13 +53,13 @@ Contenido
    Resonadores/Resonadores
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Bash
 
    Bash/Bash
-   Bash/Bash_Avanzado
-   Bash/Bash_Avanzado/Bash_Comrpimir
-   Bash/Bash_Comrpimir
+   Bash/Bash_Comandos-Basicos
+   Bash/Bash_Avanzado/Bash_Avanzado
+   Bash/Bash_Gestion-de-procesos/Bash_Gestion-de-procesos
 
 .. toctree::
     :maxdepth: 1
@@ -91,10 +91,8 @@ Contenido
 
     FIJI-Analisis_histologico/FIJI
 
-
 .. toctree:: 
     :maxdepth: 1
     :caption: Herramientas_Software
 
     Herramientas_Software/Herramientas_Software
-
