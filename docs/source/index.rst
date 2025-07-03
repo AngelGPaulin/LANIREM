@@ -59,7 +59,7 @@ Contenido
    Bash/Bash
    Bash/Bash_Comandos-Basicos
    Bash/Bash_Avanzado/Bash_Avanzado
-   Bash/Bash_Gestion-de-procesos/Bash_Gestion-de-procesos
+   Bash/Bash_Gestion-de-procesos
 
 .. toctree::
     :maxdepth: 1
