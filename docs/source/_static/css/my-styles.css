@@ -1,4 +1,18 @@
-p {
-    font-family:"Arial", Helvetica, sans-serif;
-    font-size: 20px;
+/* ===== FUENTE HELVETICA Y TAMAÑO +2pt ===== */
+body {
+    font-family: "Helvetica", Arial, sans-serif !important;
+    font-size: 14pt !important;  /* +2pt sobre el tamaño base (12pt) */
 }
+
+/* ===== FONDO AZUL CLARO SOLO PARA BLOQUES DE CÓDIGO ===== */
+.highlight {
+    background-color: #E6F2FF !important;  /* Azul claro */
+    border-radius: 4px !important;
+    padding: 10px !important;
+    margin: 1em 0 !important;
+}
+
+/* Opcional: Ajuste de colores del texto en código */
+.highlight .k { color: #008000 !important; }  /* Palabras clave */
+.highlight .n { color: #000000 !important; }  /* Nombres */
+.highlight .o { color: #AA22FF !important; }  /* Operadores */
