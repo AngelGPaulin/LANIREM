@@ -1,8 +1,6 @@
 ¡Bienvenido a la documentación de Don Clusterio!
 ===================================
 
-.. figure:: clusterio.png
-
 Don Clusterio es la red de computadoras que trabajan conjuntamente de manera distribuida y paralela para almacenar, manejar y analizar imagenes de 
 resonancia magnetica estructural y funcional principalmente.
 
