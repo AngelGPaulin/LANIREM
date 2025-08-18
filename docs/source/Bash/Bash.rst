@@ -18,7 +18,7 @@ agradablemente compilados en un TUTORIAL de la gente que hace el fsl, el cual pu
 lenguaje de shell llamado ``sh``, que está localizado en ``/bin/sh``, mientras que en el laboratorio habitualmente 
 utilizamos ``bash``, que está en ``/bin/bash``. Los dos lenguajes hacen prácticamente lo mismo y tienen una sintaxis casi 
 idéntica, con ligeras diferencias que pueden consultarse `aquí <https://superuser.com/questions/125728/what-is-the-difference-between-bash-and-sh.>`_. Y por acá hay otro excelente 
-tutorial: ``AQUI <hxtps://command-line-tutorial.readthedocs.io/>``_
+tutorial: `AQUI <https://command-line-tutorial.readthedocs.io/>`_.
 
 
 bash - Avanzado 

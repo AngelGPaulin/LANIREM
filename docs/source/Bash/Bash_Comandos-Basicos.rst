@@ -189,10 +189,13 @@ este comando despliega a los directorios con su estructura e información. Da un
    # │   └── program1
    # └── Pictures
    #     └── image1.jpg
-* = wildcard
+   
+\* = wildcard
 -----------------------
+
 Uno de mis favoritos es el super asterisco ``*``, que es una manera altamente efectiva de filtrar, buscar y seleccionar archivos en un directorio. Aquí vamos a poner unos ejemplos.
 Suponiendo que tenemos una serie de archivos en nuestro directorio:
+
 ::
 
    ls

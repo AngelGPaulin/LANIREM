@@ -32,8 +32,10 @@ Lo siguiente es localizar los archivos que deseas convertir. Puedes buscarlos al
 ::
 
    ls *irm150d_rata64A*
+::
+20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1 
 
-``20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1 ``, y es el que voy a utilizar de ahora en adelante como ejemplo.
+y es el que voy a utilizar de ahora en adelante como ejemplo.
 
 Donde ``20220104`` es la fecha de adquisición y ``INB_C13_hluna_irm150d_rata64A_INB_C13_hluna`` el nombre que le das a tu estudio. Si nosotros enlistamos (``ls``) esta carpeta para ver que hay adentro, veremos que hay carpetas enumeradas al inicio, estos corresponden a cada adquisición en el orden en el que fueron tomadas y son las que vamos a ir convirtiendo.
 
@@ -131,12 +133,10 @@ Para ver que tus imagenes se convirtieron exitosamente en formato Nifti, vamos a
    mrview 64A_T2.nii.gz
 Y el resultado es esto:
 
-!`image <https://github.com/c13inb/c13inb.github.io/assets/129544525/fe8d393b-9b6f-4df3-9af3-02aadabf23f1>`_
+.. image:: https://github.com/c13inb/c13inb.github.io/assets/129544525/fe8d393b-9b6f-4df3-9af3-02aadabf23f1
 
-Una vez que conviertes tus imágenes, estas listo para el siguiente paso que es procesarlas de acuerdo al tipo de estudio. Aprende más acerca de como procesar tus imágenes en esta `entrada <https://github.com/c13inb/c13inb.github.io/wiki/Procesamiento-Imagen>`_. 
+Una vez que conviertes tus imágenes, estas listo para el siguiente paso que es procesarlas de acuerdo al tipo de estudio. Aprende más acerca de como procesar tus imágenes en esta `entrada <https://lanirem.readthedocs.io/en/latest/Procesamiento_Imagenes/Procesamiento-Imagen.html>`_. 
 
-
-***
 
 Tutoriales para el uso del resonador
 -----------------------
