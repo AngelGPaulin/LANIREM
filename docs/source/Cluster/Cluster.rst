@@ -51,5 +51,5 @@ Errores del clúster
 Aquí se encuentran los principales :doc:`Cluster_Errores-del-clúster` cuando los jobs no corren.
 
 
-.. image:: https://raw.githubusercontent.com/c13inb/c13inb.github.io/master/images/donClusterio_01.Procesamiento_Imagenes
+.. image:: https://i.imgur.com/Wfswf1j.jpeg
 Este es Don Clusterio. Es nuestro amigo. Es el gurú del cluster hippie del INB. Un cluster sin sysadmin, basado en el respeto y cariño entre sus integrantes. Un lugar donde todos ayudan para que las PCs estén prendidas, donde los usuarios se dan consejos entre todas y todos. Un lugar donde nadie escribe datos en su HOME. Donde son cuidadosos con sus respaldos, y donde nadie se agandalla all.q. Un hermoso lugar donde el conocimiento se vierte sobre la wiki. Vemos aquí a Don Clusterio sonriendo mientras revisa los logs de acceso remoto, satisfecho por no ver sesiones de x2go colgadas desde hace más de tres días. Larga vida a Don Clusterio.

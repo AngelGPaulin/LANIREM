@@ -5,8 +5,6 @@ Las imágenes médicas, en este caso de resonancia magnética, por si solas sola
 
 El tipo de procesamiento dependerá absolutamente del tipo de imágen que estes trabajando, es decir, no es lo mismo procesar imágenes anatómicas T1w a imágenes pesadas a difusión. Tambíen te encontraras que la comunidad de científicos que desarrollan estas herramientas es _muy_ activa, por lo tanto existen vaaarias opciones. En esta entrada vas a encontrar los softwares que más se utilizan, que son robustos y sobre todo bien documentados.  
 
-***
-
 
 Herramientas para el procesamiento de imágenes.
 -----------------------
