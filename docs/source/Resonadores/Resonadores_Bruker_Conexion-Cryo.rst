@@ -19,8 +19,8 @@ Desconexión de la antena de superficie 2x2 y conexión de la antena cryo.
 
 6.- Luego se busca el cable de la antena cryo {ubicado en la parte posterior del resonador, a un costado de la plataforma de conectores del resonador (espacio vacío a la izquierda)}. Este cable tiene un conector con un punto rojo y se conecta en la entrada con cubierta con punto rojo.
 
-[[images/cryo.png]]
-
+.. image:: https://i.imgur.com/GiEoonp.png
+    
 7.- Entonces, se quita la cubierta metálica ubicada al centro de la compuerta posterior del resonador y se cierra esta compuerta.
 
 9.- En este paso se introduce la antena cryo en el orificio de la compuerta posterior. Para lograrlo, es necesario tomar la antena, inclinarla hacia atrás e introducirla en ángulo de 25°. Cuando ya estén dentro los primeros centímetros de la antena, se endereza la antena en sentido paralelo al soporte cilíndrico verde y se introduce el resto de la antena, hasta que la antena esté en el centro del magneto y su soporte metálico se encuentre a unos 2 cm del anillo metálico de la compuerta del resonador.

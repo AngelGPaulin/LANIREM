@@ -30,41 +30,46 @@ Este comando es útil en varias cuestiones, por ejemplo, nos puede mostrar los p
 
 Parámetros:
 
+### Opciones de Comandos Comunes
+
 **-a**
-   Muestra todos los procesos con un control, este comando no sólo muestra datos del usario actual.
+: Muestra todos los procesos con un control; este comando no sólo muestra datos del usuario actual.
 
 **-r**
-   Muestra sólo los procesos que están en ejecución.
+: Muestra sólo los procesos que están en ejecución.
 
 **-x**
-   Muestra procesos, de los cuáles la terminal no tiene control.
+: Muestra procesos de los cuales la terminal no tiene control.
 
 **-u**
-   Muestra los procesos del propio usuario (owner process).
+: Muestra los procesos del propio usuario (owner process).
 
 **-l**
-   Muestra los datos en formato de una lista larga.
+: Muestra los datos en formato de una lista larga.
 
 **-w**
-   Muestra procesos de la línea de comandos.
+: Muestra procesos de la línea de comandos.
 
-ree -h
+---
+### free -h
 -----------------------
 
 Muestra el estado de la memoria del CPU actual.
 
-df
+### df
 -----------------------
 
-Muestra el espacio libre de los discos/dispositivos. Legible a humanos (**-h**)
+Muestra el espacio libre de los discos/dispositivos. El argumento **-h** lo hace legible para humanos.
 
-      ::
-            df -h
+.. code-block:: bash
 
-ping
+   df -h
+
+### ping
 -----------------------
 
-Indica si hay respuesta por parte del servidor
+Indica si hay respuesta por parte de un servidor.
 
-      ::
-            ping mansfield
+.. code-block:: bash
+
+   ping mansfield

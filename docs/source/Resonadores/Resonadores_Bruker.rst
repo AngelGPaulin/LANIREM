@@ -33,7 +33,8 @@ Lo siguiente es localizar los archivos que deseas convertir. Puedes buscarlos al
 
    ls *irm150d_rata64A*
 ::
-20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1 
+
+   20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1
 
 y es el que voy a utilizar de ahora en adelante como ejemplo.
 

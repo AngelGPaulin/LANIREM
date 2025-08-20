@@ -88,17 +88,16 @@ la otra cosa muestra la linea:
 
 donde:
 
-**santog** - es mi usuario
+**santog**
+: es mi usuario
 
-**penfie** - es el nombre de la maquina donde entre
+**penfie**
+: es el nombre de la maquina donde entre.
 
-El simbolo ``$`` representa que estoy interactuando con el programa ``bash``.
-
-
-* ``bash`` es el programa que sirve como interface entre el usuario y el Sistema Operativo y todo el software que contiene **Don Clusterio** y
-el simbolo ``$`` espera ordenes de nosotros (``comandos``) que se ejecutaran.
-
-* ``bash`` Es un lenguaje de programacion, donde hay constantes, variables, estructura de control, etc..
+**El simbolo ``$``**
+: representa que estoy interactuando con el programa ``bash``.
+> * ``bash`` es el programa que sirve como interface entre el usuario y el Sistema Operativo y todo el software que contiene **Don Clusterio** y el simbolo ``$`` espera ordenes de nosotros (``comandos``) que se ejecutaran.
+> * ``bash`` Es un lenguaje de programacion, donde hay constantes, variables, estructura de control, etc..
 
 
   
