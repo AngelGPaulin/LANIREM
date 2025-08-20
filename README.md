@@ -7,7 +7,7 @@ El objetivo de esta documentación es servir como una guía para que los usuario
 
 ## Acerca del proyecto
 
-**LANIREM** es un laboratorio nacional de la UNAM, UNAM-Juriquilla y el **Centro de Investigación en Matemáticas, A.C. (CIMAT)**, que cuenta con tecnología de punta en resonancia magnética para investigación científica y estudios clínicos.  
+**LANIREM** es un laboratorio nacional de la UNAM, UNAM-Juriquilla, que cuenta con tecnología de punta en resonancia magnética para investigación científica y estudios clínicos.  
 
 Este proyecto de documentación permite a la comunidad académica y de investigación tener un recurso centralizado para entender los servicios, tecnologías e infraestructura del laboratorio.
 
