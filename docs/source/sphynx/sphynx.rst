@@ -87,7 +87,7 @@ Cursivas (Italics)
 
 Código/monospace
 ----------------
-- Usando doble backticks: ``print("Hola mundo")``.
+- Usando doble backticks: ``print("Hola mundo.")``.
 
 Títulos y secciones
 ===================
