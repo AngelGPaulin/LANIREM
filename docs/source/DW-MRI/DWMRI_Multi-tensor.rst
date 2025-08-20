@@ -23,8 +23,7 @@ El scheme no es nada mas que la información de los gradientes de difusión de l
 
 Por ejemplo, si vemos como esta ordenado tu archivo ``.bvec`` original, vemos que esta de esta manera:
 
-!`Captura de pantalla 2024-04-15 203253 <https://github.com/c13inb/c13inb.github.io/assets/129544525/444f378c-fb2c-414c-8790-34460953ebd2>`_
-
+`captura de pantalla <https://github.com/c13inb/c13inb.github.io/assets/129544525/444f378c-fb2c-414c-8790-34460953ebd2>`_
 Lo mismo sucede para el archivo ``.bval``. Lo que necesitamos hacer es juntar ambos archivos y acomodar los datos en formato columna/tabla. Para esto, podemos usar un script que forma parte de los ``inb_tools`` que hace el trabajo!
 
 ::
@@ -37,7 +36,8 @@ Lo mismo sucede para el archivo ``.bval``. Lo que necesitamos hacer es juntar am
    
    transpose_table.sh bvec_bval > scheme
 
-!`Captura de pantalla 2024-04-15 204054 <https://github.com/c13inb/c13inb.github.io/assets/129544525/f8b6cc05-97bf-46b3-b821-69464157fbac>`_
+.. image:: https://github.com/c13inb/c13inb.github.io/assets/129544525/f8b6cc05-97bf-46b3-b821-69464157fbac
+   :alt: Captura de pantalla 2024-04-15 204054
 
 Vemos que las columnas siguen sin alinearse adecuadamente y esto es debido a que tenemos numeros muy largos despues del punto. Esto lo corregimos con el siguiente código:
 
@@ -48,7 +48,8 @@ Vemos que las columnas siguen sin alinearse adecuadamente y esto es debido a que
 
 Ahora vemos que ahora las columnas estan bien alineadas y en orden:
 
-!`Captura de pantalla 2024-04-15 210516 <https://github.com/c13inb/c13inb.github.io/assets/129544525/f1434b1c-3852-4173-b6a8-a1bda1ca6c1a>`_
+.. image:: https://github.com/c13inb/c13inb.github.io/assets/129544525/f1434b1c-3852-4173-b6a8-a1bda1ca6c1a
+   :alt: Captura de pantalla 2024-04-15 210516
 
 Como ultimo paso para el scheme, hay que remover los primeros bvals (b=21.01.08) y convertirlos en ceros, ya que MRDS no puede ser ejecutado sin volúmenes b=0, en este caso puedes tomar los mas bajos y convertilos. Aquí un código para poderlo hacer:
 
@@ -78,8 +79,8 @@ Aquí hay de dos sopas, o creas una máscara general del cerebro utilizando ``dw
 ::
 
    dwi2mask -grad scheme_nuevo 64A_dwi.nii.gz mascara_64A.nii.gz
-!`Captura de pantalla 2024-04-16 160229 <https://github.com/c13inb/c13inb.github.io/assets/129544525/e1a33c5e-6651-43af-817a-b682edfcaf4d>`_
-
+.. image:: https://github.com/c13inb/c13inb.github.io/assets/129544525/e1a33c5e-6651-43af-817a-b682edfcaf4d
+   :alt: Captura de pantalla 2024-04-16 160229
 
 Ajuste de MRDS primera parte:
 -----------------------
@@ -380,11 +381,13 @@ Entonces por el momento nos concentraremos en los output más relevantes:
    dwi_MRDS_Diff_BIC_PDDs_CARTESIAN.nii
 Donde ``dwi_MRDS_Diff_BIC_NUM_COMP.nii`` nos va a decir cuantos compartimentos (tensores) encontro en tus datos. En este ejemplo podemos ver que MRDS encontro en su mayoría tres compartimentos:
 
-!`image <https://github.com/c13inb/c13inb.github.io/assets/129544525/f619b3af-b2e7-4bcf-9e57-158f6b56082e>`_
+.. image:: https://github.com/c13inb/c13inb.github.io/assets/129544525/f619b3af-b2e7-4bcf-9e57-158f6b56082e
+   :alt: Captura de pantalla 2024-04-15 203253
 
 Una vez sabiendo que hay tres compartimentos, ``dwi_MRDS_Diff_BIC_COMP_SIZE.nii`` nos dirá el tamaño de cada uno, y tanto ``dwi_MRDS_Diff_BIC_FA.nii`` como ``dwi_MRDS_Diff_BIC_MD.nii`` será los mapas cuantitativos de cada compartimento. Ejemplo:
 
-!`image <https://github.com/c13inb/c13inb.github.io/assets/129544525/c3716a90-aedd-4aa4-b655-d72f58a4b5b4>`_
+.. image:: https://github.com/c13inb/c13inb.github.io/assets/129544525/c3716a90-aedd-4aa4-b655-d72f58a4b5b4
+   :alt: Captura de pantalla 2024-04-15 203253
 
 Ahora, para visualizar tus fixels vamos a necesitar el archivo ``dwi_MRDS_Diff_BIC_PDDs_CARTESIAN.nii`` que contiene información de la dirección principal. Si bien odemos cargar los datos de la siguiente manera:
 ::

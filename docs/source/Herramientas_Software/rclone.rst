@@ -2,7 +2,7 @@ rclone
 ======
 
 
-[rclone](https://rclone.org/) te permite montar tu dropbox, google drive, amazon S3 y servicios similares como una carpeta local en linu` <https://rclone.org/>`_ te permite montar tu dropbox, google drive, amazon S3 y servicios similares como una carpeta local en linux!
+`rclone <https://rclone.org/>`_ te permite montar tu dropbox, google drive, amazon S3 y servicios similares como una carpeta local en `linux <https://rclone.org/>`_!
 
 Todas las máquinas del cluster ya tienen instalado rclone. Para verificarlo, escribe ``rclone`` en la terminal y debería mostrar las instrucciones y opciones. Si no lo hace, entonces avisa.
 
@@ -19,8 +19,9 @@ Configuración de rclone
 5. Cuando pregunta si queremos ``auto config`` le decimos que ``y``. 
 
 6. Se abrirá nuestro navegador de internet de manera mágica, con una pantalla como:
-!`snapshot <https://github.com/c13inb/c13inb.github.io/blob/master/images/rclone_dropbox_config.png>`_
+.. image:: https://imgur.com/E3jJKH4
 
+   Aceptamos los permisos y copiamos el código que nos da.
 7. Finalmente le decimos que ``y`` a cuando nos pregunte si todo está bien.
 8. Salimos de la configuración con ``q``.
 
@@ -32,7 +33,7 @@ Montar Dropbox mediante rclone
 
    dropbox_mount=/misc/mansfield/lconcha/nobackup/mnt_dropbox
    mkdir $dropbox_mount
->  :warning: Si alguna vez lconcha se encuentra una carpeta de éstas montada en algún lugar _respaldable_ habrá `consecuencias graves <https://media.giphy.com/media/ToMjGpIYtgvMP38WTFC/source.gif>`_.
+.. warning:: Si alguna vez lconcha se encuentra una carpeta de éstas montada en algún lugar _respaldable_ habrá `consecuencias graves <https://media.giphy.com/media/ToMjGpIYtgvMP38WTFC/source.gif>`_.
 
 
 2. Monto Dropbox en ``dropbox_mount``:
