@@ -17,7 +17,7 @@ Este proyecto de documentación permite a la comunidad académica y de investiga
 
 Puedes acceder a la documentación completa en la siguiente URL:
 
-👉 [Documentación LANIREM en Read the Docs](URL_AQUI)
+👉 [Documentación LANIREM en Read the Docs]((https://lanirem.readthedocs.io/en/latest/Introduccion/introduccion.html))
 
 ---
 
