@@ -1,30 +1,50 @@
 # Documentación de LANIREM UNAM Juriquilla
 
-Este es un repositorio que contiene la documentación para el **Laboratorio Nacional de Imagenología por Resonancia Magnética (LANIREM)** de la **UNAM, campus Juriquilla**.  
-El objetivo de esta documentación es servir como una guía para que los usuarios puedan conocer las capacidades y la infraestructura del laboratorio, y también para que puedan aprender a publicar su propio contenido en la plataforma.
+Este repositorio contiene la documentación para el **Laboratorio Nacional de Imagenología por Resonancia Magnética (LANIREM)** de la **UNAM, campus Juriquilla**.  
+
+El objetivo de esta documentación es servir como una guía para que los usuarios puedan conocer las capacidades e infraestructura del laboratorio, así como aprender a **publicar su propio contenido** en la plataforma.
 
 ---
 
-## Acerca del proyecto
+## 📖 Acerca del proyecto
 
-**LANIREM** es un laboratorio nacional de la UNAM, UNAM-Juriquilla y el **Centro de Investigación en Matemáticas, A.C. (CIMAT)**, que cuenta con tecnología de punta en resonancia magnética para investigación científica y estudios clínicos.  
+**LANIREM** es un laboratorio nacional de la **UNAM**, **UNAM-Juriquilla** y el **Centro de Investigación en Matemáticas, A.C. (CIMAT)**, que cuenta con tecnología de punta en resonancia magnética para investigación científica y estudios clínicos.  
 
-Este proyecto de documentación permite a la comunidad académica y de investigación tener un recurso centralizado para entender los servicios, tecnologías e infraestructura del laboratorio.
-
----
-
-## Acceso a la documentación
-
-Puedes acceder a la documentación completa en la siguiente URL:
-
-👉 [Documentación LANIREM en Read the Docs](URL_AQUI)
+Este proyecto de documentación centraliza la información sobre los **servicios, tecnologías e infraestructura** del laboratorio.
 
 ---
 
-## Cómo contribuir y publicar
+## 🔗 Acceso a la documentación
 
-Esta plataforma fue diseñada para que los usuarios puedan **contribuir y publicar su propio material**.  
+La documentación completa está disponible en **Read the Docs**:
 
-Para conocer los requisitos y el proceso de publicación, por favor, consulta la documentación en el enlace provisto.  
+👉 [Documentación LANIREM](URL_AQUI)
 
-La información detallada sobre cómo empezar, incluyendo los requisitos y los pasos a seguir, se encuentra en la documentación principal.
+---
+
+## 🤝 Cómo contribuir y publicar
+
+La plataforma está diseñada para que los usuarios puedan **contribuir y publicar** material propio.  
+Consulta la guía en la documentación principal para conocer los requisitos y el proceso de publicación.
+
+---
+
+## 🛠️ Compilar la documentación localmente
+
+Si deseas compilar la documentación en tu equipo:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/usuario/lanirem-docs.git
+cd lanirem-docs
+
+# Crear entorno virtual
+python -m venv venv
+source venv/bin/activate   # En Linux/macOS
+venv\Scripts\activate      # En Windows
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Construir documentación HTML
+make html
