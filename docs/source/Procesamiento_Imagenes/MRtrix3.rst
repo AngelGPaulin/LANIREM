@@ -5,7 +5,6 @@ MRtrix3
 
 Por último, muy importante resaltar es que MRtrix esta bastante bien documentado y su uso es relativamente sencillo (una vez que le agarras la onda a la sintaxis) en este `link <https://mrtrix.readthedocs.io/en/latest/>`_ te dejo su wiki donde podrás encontrar como instalarlo, conceptos claves, manuales de uso de los comandos y mucho más.  
 
-***
 
 Configuración de Mrtrix
 -----------------------
@@ -19,7 +18,6 @@ Hasta el día de hoy (abril 2024) existen dos versiones de ``mrtrix`` en el clú
    mrtrix/3.0.4
 
 
-***
 
 Algunos procesos comunes con MRtrix:
 -----------------------
