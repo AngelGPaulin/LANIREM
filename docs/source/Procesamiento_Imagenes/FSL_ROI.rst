@@ -15,13 +15,9 @@ C) Controla los limites del espacio y tiempo para la ROI. Hay que darse cuenta q
 
 
 Utilización:
+.. code-block:: bash
 
-       fslroi <input> <output> <xmin> <xsize> <ymin> <ysize> <zmin> <zsize> 
-
-  
-
-       fslroi <input> <output> <tmin> <tsize>       
-
-       fslroi <input> <output> <xmin> <xsize> <ymin> <ysize> <zmin> <zsize> <tmin> <tsize>       
-
+   fslroi <input> <output> <xmin> <xsize> <ymin> <ysize> <zmin> <zsize>
+   fslroi <input> <output> <tmin> <tsize>
+   fslroi <input> <output> <xmin> <xsize> <ymin> <ysize> <zmin> <zsize> <tmin> <tsize>
   

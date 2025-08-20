@@ -12,11 +12,11 @@ Opción 1. Utilizar fslsplit
 
 Separamos los volúmenes.
 -----------------------
-
+::
     fslsplit Input Output_Base -t
 
 Ejemplo:
-
+::
     fslsplit '/home/inb/lauveri/Desktop/Fun0.nii.gz' Im_1 -t
 
 
@@ -28,7 +28,7 @@ No hay limitaciones del orden o número de volúmenes que se pueden borrar. Tamp
 
 Utilizar el comando fslmerge
 -----------------------
-
+::
     fslmerge -t output inputs
 
 En los que he hecho, disminuye mucho el desplazamiento absoluto, pero no el relativo.
@@ -40,7 +40,7 @@ Es importante mencionar que fslmerge sirve también para concatenar imágenes en
 Opción 2: fslroi
 -----------------------
 fslroi es capaz de hacer un ''crop'' a nuestros datos, ya sea en espacio 3D o en el tiempo. En nuestro caso, queremos eliminar algunos volúmenes dentro de un set 4D. Supongamos que tenemos 100 volúmenes, y queremos quitar del 50 al 60, que nuestro sujeto se movió. Recordemos que fslroi cuenta a partir de 0, así que los primeros volúmenes son del 0 al 49 y los últimos son del 59 al 99. Tendremos que hacerlo en tres pasos:
-
+::
     fslroi archivoOriginal.nii primeraParte.nii 0 49
     fslroi archivoOriginal.nii segundaParte.nii 59 41
     fslmerge -t archivoFinal.nii primeraParte.nii segundaParte.nii
@@ -50,5 +50,5 @@ En el caso de la primera línea de código, el 0 representa el índice del volú
 Opción 3: mrconvert
 -----------------------
 Si de plano lo queremos hacer en un solo paso, la opción es usar ''mrconvert'', que es parte de ''mrtrix''. mrconvert es capaz de extraer volúmenes indicandolos como secuencias numéricas. Hay mucha información en `esta liga <http://www.brain.org.au/software/mrtrix/general/cmdline.html>`_
-
+::
     mrconvert -coord 3 0:49,59:99 archivoOriginal.nii archivoFinal.nii

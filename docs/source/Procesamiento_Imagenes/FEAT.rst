@@ -4,7 +4,7 @@ FEAT
 
 Tutorial básico
 -----------------------
-:tipping_hand_person: Para un tutorial paso a paso para el análisis de un diseño de bloques, pulsa :doc:`FSL-tutorialFeat`.
+💁 Para un tutorial paso a paso para el análisis de un diseño de bloques, pulsa :doc:`FSL-tutorialFeat`.
 
 
 Para iniciar el uso de FEAT 
@@ -28,7 +28,7 @@ Para abrir la herramienta, escribir en la terminal:**Feat** (¡No olvidar la may
 
 Tips para uso de FEAT
 -----------------------
-+ ¿Qué datos ingresar en [cada pestaña]?(./FEAT-Datos-en-pestañas)
++ ¿Qué datos ingresar en :doc:`cada pestaña <FEAT-Datos-en-pestañas>`
 + :doc:`FEAT:-Análisis-de-alto-nivel` (segundo y tercer nivel): En esta sección se describe cómo hacer un **análisis de alto nivel** con sus diferentes opciones.
 + :doc:`FEAT:-render-highres`: En este apartado podrás aprender a **fusionar una imagen funcional o anatómica** base con un mapa estadístico.
 + :doc:`FEAT:-FEATQuery`: Con esta herramienta puedes analizar el **flujo de cambio de la señal BOLD** en una región específica y obtener su porcentaje de cambio en relación a una condición experimental en particular. 

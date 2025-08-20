@@ -13,9 +13,8 @@ Sintonización de la antena de volumen, para escaneos con antena de superficie 2
 
 5.- Luego, se liberará la entrada con el punto rojo desconectando el conector del amplificador. En esta entrada se conectará el conector con el punto amarillo (elemento 1) del splitter. Es importante mencionar, que para la realización del Wobble no es necesario modificar la conexión del conector de la antena de superficie 2x2, por lo que ésta se mantendrá sin cambios.
 
-[[images/wobble.png]]
-
-
+.. image:: https://i.imgur.com/3F7s7pR.png
+    
 6.- Confirmando las conexiones anteriores, se regresa a la consola del resonador y se elige la opción setup. Esto permitirá la visualización de una onda con deflexión negativa que representa el grado de centralización de la recepción de señales para el canal o elemento 1. En caso de que esta onda no se encuentre centrada y paralela al eje y, se movilizará la perilla del tunning (T1 amarilla), para desplazar la onda en el plano de x. Mientras que, para incrementar la amplitud de la onda o profundidad de la misma en el plano y, se movilizará la perilla del matching (M1 amarilla).
 
 7.- Logrando la mayor centralización y profundidad posibles de la onda de sintonización, se procederá a culminar con el Wobble del elemento 1. Para ello, en la consola se da clic en stop y para continuar, se selecciona el elemento 2 en la opción de selección de elementos.

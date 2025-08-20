@@ -5,7 +5,7 @@ FSL
 FMRIB Software Library - FSL
 -----------------------
 
-FSL es una libreria _open access_ de herramientas para el análisis de imagenes de resonancia magnética, desarrollada por investigadores de la Universidad de Oxford. Al día de hoy cuenta con una colección extensa para el análisis y procesamiento de imágenes estructurales, pesadas a difusión (DWI) y funcionales (fMRI). La librería FSL no le hace el feo a nadie y la puedes descargar en cualquier sistema operativo Linux, macOS o Windows (bueno, poquito a windows, hay que hacerlo mediante WSL). En este `link <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>`_ te dicen como paso a paso.
+FSL es una libreria *open access* de herramientas para el análisis de imagenes de resonancia magnética, desarrollada por investigadores de la Universidad de Oxford. Al día de hoy cuenta con una colección extensa para el análisis y procesamiento de imágenes estructurales, pesadas a difusión (DWI) y funcionales (fMRI). La librería FSL no le hace el feo a nadie y la puedes descargar en cualquier sistema operativo Linux, macOS o Windows (bueno, poquito a windows, hay que hacerlo mediante WSL). En este `link <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>`_ te dicen como paso a paso.
 
 Herramientas
 -----------------------
@@ -18,7 +18,7 @@ Imágenes estructurales
 + :doc:`FSL_Brain-extraction-tool-BET` : esta herramienta elimina todo lo que no sea tejido de cerebro en la imágen, así como las superficies del cráneo. 
 + `FAST <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FAST>`_ : realiza una segmentación de los diferentes tejidos del cerbero, ya sea sustancia gris, blanca, liquido cefaloraquídeo, etc. 
 + `FIRST <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FIRST/UserGuide>`_ : por otro lado, esta herramienta segmenta areas subcorticales. 
-+ `FLIRT <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT>`_ : es una herramienta robusta para registrar imágenes de manera lineal y no lineal con `FNIRT <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FNIRT>`_.
++ `FLIRT <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide>`_ : es una herramienta robusta para registrar imágenes de manera lineal y no lineal con `FNIRT <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FNIRT/UserGuide>`_.
 
 Imágenes funcionales
 -----------------------
@@ -36,9 +36,6 @@ Imágenes difusión
 
 
 ⭐ Recuerda que si eres miembro de la wiki y usas algunas de estas herramientas puedes colaborar generando nuevas entradas con tus mejores tips!
-
-
-***
 
 Manejo de versión de FSL
 -----------------------

@@ -9,38 +9,46 @@ El home es un espacio que pertenece a cada usuario, es el lugar dónde nos encon
 ¿Dónde está?
 -----------------------
 
-En la estructura de los sistemas **Unix** suelen encontrarse en la dirección
+En la estructura de los sistemas **Unix** la carpeta personal del usuario suele encontrarse en la dirección:
 
-::
-    /home/usuario
+.. code-block:: text
+
+   /home/usuario
 
 Pero en el clúster del laboratorio, la ruta correcta es:
 
-::
-    /home/inb/usuario
+.. code-block:: text
 
-Donde usuario es sustituido por el usuario en curso. Se puede acceder mediante:
+   /home/inb/usuario
+
+Donde ``usuario`` es sustituido por tu nombre de usuario. A continuación se muestran tres formas de acceder a este directorio.
 
 Ruta absoluta
------------------------
-::
-     cd /home/inb/usuario
+---------------
+Esta es la forma más explícita, indicando el camino completo desde la raíz del sistema.
 
-Ruta con "wildcard" (comodín)
------------------------
-::
-    cd ~/
+.. code-block:: bash
 
-También nos podemos trasladar usando el comando cd sin argumentos
------------------------
-::
-    cd
+   cd /home/inb/usuario
 
+Ruta con comodín (wildcard)
+------------------------------
+El símbolo ``~`` (llamado tilde) es un atajo que siempre representa tu directorio personal.
+
+.. code-block:: bash
+
+   cd ~/
+
+Usando `cd` sin argumentos
+----------------------------
+Por defecto, si ejecutas el comando ``cd`` sin especificar ningún destino, te llevará directamente a tu directorio personal.
+
+.. code-block:: bash
+
+   cd
 O sea, los tres formatos del comando **cd** tienen la misma función.
 
 En el caso de los equipos que forma parte del clúster, el directorio home se encuentra físicamente en el servidor central.
-
-
 
 
 Y ¿qué debo escribir?

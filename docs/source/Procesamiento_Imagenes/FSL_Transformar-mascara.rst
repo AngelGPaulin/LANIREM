@@ -7,8 +7,9 @@ Transformar una máscara (espacio estándar-atlas) al espacio del sujeto (fMRI)
 1. LLevar la máscara a un espacio nuevo
 -----------------------
 
+::
 
-''arafat@tanner:~/Desktop/$ flirt -in  mascara.nii -ref funcional_sujeto.nii -applyxfm -init standard2example_func.mat -out Mascara_highres.nii''
+    arafat@tanner:~/Desktop/$ flirt -in  mascara.nii -ref funcional_sujeto.nii -applyxfm -init standard2example_func.mat -out Mascara_highres.nii
 
 **-in**       la máscara a utilizar
 
@@ -23,12 +24,11 @@ Transformar una máscara (espacio estándar-atlas) al espacio del sujeto (fMRI)
 2. Cambiar el umbral de la nueva máscara y binarizarla  
 -----------------------
 
-
-
-''arafat@tanner:~/Desktop/$ fslmaths Mascara_highres.nii -thr 0.9 -bin Mascara_highres.nii''
+::
+    arafat@tanner:~/Desktop/$ fslmaths Mascara_highres.nii -thr 0.9 -bin Mascara_highres.nii
 
 **-thr**   es el umbral seleccionado,(las opciones van desde 0.9 que es muy conservador, hasta 0.5 que es más laxo)
 
 **-bin** opción binarizar. Nota: entre cada opción se utiliza el nombre de la imagen que se va a modificar
 
-* más detalles de las opciones en http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/FA` <>`_
+* más detalles de las opciones en `Página de FLIRT/FA en la wiki de FSL <http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/FA>`_

@@ -30,46 +30,62 @@ Este comando es útil en varias cuestiones, por ejemplo, nos puede mostrar los p
 
 Parámetros:
 
-### Opciones de Comandos Comunes
+.. tabs::
 
-**-a**
-: Muestra todos los procesos con un control; este comando no sólo muestra datos del usuario actual.
+   .. tab:: Opciones Comunes
 
-**-r**
-: Muestra sólo los procesos que están en ejecución.
+      .. admonition:: Banderas (flags) más usadas
+         :class: tip
 
-**-x**
-: Muestra procesos de los cuales la terminal no tiene control.
+         Estas opciones modifican el comportamiento de muchos comandos, como ``ps`` (para ver procesos).
 
-**-u**
-: Muestra los procesos del propio usuario (owner process).
+         **-a**
+            Muestra **a**ll (todos) los procesos, no solo los del usuario actual.
 
-**-l**
-: Muestra los datos en formato de una lista larga.
+         **-r**
+            Muestra solo los procesos en ejecución (**r**unning).
 
-**-w**
-: Muestra procesos de la línea de comandos.
+         **-x**
+            Muestra procesos que no están asociados a una terminal.
 
----
-### free -h
------------------------
+         **-u**
+            Filtra los procesos por **u**suario.
 
-Muestra el estado de la memoria del CPU actual.
+         **-l**
+            Presenta la salida en formato de lista **l**arga y detallada.
 
-### df
------------------------
+         **-w**
+            Muestra la salida en formato ancho (**w**ide), evitando que se corte.
 
-Muestra el espacio libre de los discos/dispositivos. El argumento **-h** lo hace legible para humanos.
 
-.. code-block:: bash
+   .. tab:: Comandos de Diagnóstico
 
-   df -h
+      .. rubric:: Comandos esenciales para monitorear el sistema
 
-### ping
------------------------
+      |
 
-Indica si hay respuesta por parte de un servidor.
+      .. container:: command-box
 
-.. code-block:: bash
+         **free -h**
 
-   ping mansfield
+         Muestra el estado de la memoria RAM del sistema de forma legible para **h**umanos. Te dice cuánta memoria está libre, en uso y en caché.
+
+      .. container:: command-box
+
+         **df -h**
+
+         Reporta el espacio libre en los **d**iscos duros (**f**ilesystems). La opción ``-h`` muestra los tamaños en GB, MB, etc.
+
+         .. code-block:: bash
+
+            df -h
+
+      .. container:: command-box
+
+         **ping**
+
+         Verifica la conectividad de red con otro equipo (servidor). Envía un pequeño paquete y espera una respuesta.
+
+         .. code-block:: bash
+
+            ping mansfield

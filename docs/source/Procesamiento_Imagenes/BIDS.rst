@@ -1,8 +1,7 @@
 BIDS
 ====
 
-[BIDS](https://bids.neuroimaging.io/) es un estándar de almacenamiento de datos, que mediante una jerarquía de carpetas y nomenclatura específica de archivos, permite la utilización transparente (y supuestamente sencilla) de complicados [*pipelines*](http://bids-apps.neuroimaging.io/) de procesamiento de imágenes reunidos en *contenedores* tipo [Docker](https://www.docker.com/) y/o [Singularity](http://singularity.lbl.gov/) que facilitan la reproducibilidad de los resultados. Puede usarse para analizar fMRI, DWI, e imágenes anatómica` <https://bids.neuroimaging.io/>`_ es un estándar de almacenamiento de datos, que mediante una jerarquía de carpetas y nomenclatura específica de archivos, permite la utilización transparente (y supuestamente sencilla) de complicados `*pipelines* <http://bids-apps.neuroimaging.io/>`_ de procesamiento de imágenes reunidos en *contenedores* tipo `Docker <https://www.docker.com/>`_ y/o `Singularity <http://singularity.lbl.gov/>`_ que facilitan la reproducibilidad de los resultados. Puede usarse para analizar fMRI, DWI, e imágenes anatómicas.
-
+`BIDS <https://bids.neuroimaging.io/>`_ es un estándar de almacenamiento de datos, que mediante una jerarquía de carpetas y nomenclatura específica de archivos, permite la utilización transparente (y supuestamente sencilla) de complicados `*pipelines* <http://bids-apps.neuroimaging.io/>`_ de procesamiento de imágenes reunidos en *contenedores* tipo `Docker <https://www.docker.com/>`_ y/o `Singularity <http://singularity.lbl.gov/>`_ que facilitan la reproducibilidad de los resultados. Puede usarse para analizar fMRI, DWI, e imágenes anatómicas.
 
 No es la intención de esta página el repetir lo que ya está dicho de cómo se organizan los datos en BIDS, pues para ésto hay tutorales. `Aquí están los tutoriales oficiales <https://github.com/bids-standard/bids-starter-kit/wiki/Tutorials>`_, pero una búsqueda en Google revelará muchos más.
 
@@ -13,14 +12,11 @@ Listo para correr un contenedor? Tenemos instalado `Singularity <http://singular
 
 Como ejemplo, veamos cómo correr `fmriprep <https://fmriprep.readthedocs.io/en/stable/>`_.  [Sigue esta liga para un corto tutorial.](./fmriprep)
 
-***
 
 PPMI
 -----------------------
 Para notas sobre cómo bajar datos de `PPMI <https://www.ppmi-info.org/>`_ y convertirlos a BIDS, visita [aquí](./ppmi_bids).
 
-
-***
 
 Convertir tus imágenes pre-clínicas en formato BIDS
 -----------------------
@@ -40,7 +36,7 @@ Una vez que identificas las imágenes de tu experimento, las moveremos a tu dire
 
 Ahora si usaremos el script de abajo que ya engloba las dos funciones de bruker para realizar la conversion ``bids_helper`` que generará el archivo ``.csv`` de la descripción de tu dataset y ``bids_convert`` que hará toda la conversión. 
 
-Abre ``micro`` o ``nano`` en la terminal y haz _copy & paste_ lo siguiente:
+Abre ``micro`` o ``nano`` en la terminal y haz *copy & paste* lo siguiente:
 
 ::
 
