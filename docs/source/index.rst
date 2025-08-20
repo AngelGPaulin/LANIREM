@@ -34,6 +34,12 @@ Contenido
 
 .. toctree::
    :maxdepth: 1
+   :caption: Sphynx
+
+   Sphynx/Sphynx
+
+.. toctree::
+   :maxdepth: 1
    :caption: Modificar la Wiki
 
    modificar_wiki/Modificar-Wiki
