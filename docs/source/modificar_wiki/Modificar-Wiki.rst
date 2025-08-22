@@ -1,7 +1,7 @@
 .. _colaborar-wiki:
 
 ======================================
-Cómo colaborar con la Wiki del LANIREM 🧠
+Cómo colaborar con la Wiki del LANIREM
 ======================================
 
 ¡Gracias por tu interés en contribuir a la wiki! Tu colaboración es fundamental
