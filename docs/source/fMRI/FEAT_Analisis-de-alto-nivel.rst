@@ -15,8 +15,8 @@ Segundo nivel
 
 2. En la pestaña de **Stats** se elige entre **fixed effects** o **mixed effects** ; si son diferentes sesiones del sujeto se considera la opción de **Mixed effects**, pero si es una misma sesión se elige **fixed effects**. Dependiendo de cómo se realizó el primer nivel (condiciones A-B-A-B ) se elige **Model setup wizard** donde se permite elegir un promedio para un solo grupo así como opciones para dos grupos. La opción de **Full model setup** permite modelar el análisis e incluir contrastes entre los COPES utilizados como inputs. Dependiendo del número de inputs (COPES) aparecerán cierto número de EVs, sin embargo se pueden añadir más EVs y crear otras categorías (ej. la suma de dos EVs ). Además en esta opción (**Full model setup**) se pueden realizar contrastes o comparaciones entre las EVs:
 
-[[images/full_model_setup.png]]
-
+.. img:: https://i.imgur.com/zXg3PYy.png
+        
 3.**Post-stats** aquí se puede seleccionar una máscara para delimitar posteriormente la región de interés y reducir de esta forma el número de comparaciones entre voxeles. Aquí se indica si se quiere, o no,  hacer corrección y de qué tipo, el valor de Z y el valor de la P. Además existen otras opciones para desplegar los resultados con una imagen de fondo que corresponde a un sujeto (sea su anatómica o su funcional) o al promedio de todos. Otras opciones permiten homogeneizar los valores de la Z, o bien, hacer transparentes los blobs para poder apreciar la imagen de fondo.
 *Se puede elegir que aparezcan en nuestros resultados las gráficas con el curso temporal de la señal  (**time series plots**). 
 
@@ -29,6 +29,5 @@ Tercer nivel
 En la opción de **Full model setup** tendremos una EV , si tenemos un solo grupo esa columna nos generará la media de todos los inputs que hayamos incluido (se incluyen poniendo un 1 en cada casilla); si tenemos alguna otra variable (ej. edad, respuestas correctas) que nos interese ingresar al modelo se pueden agregar más EVs y en cada input se van colocando sus valores. Si tenemos dos o más grupos, lo indicamos en la columna de **Group** numerando los inputs según el grupo (ej. 1,1,1,1,1,2,2,2,2,2,), además añadimos una EV por cada grupo (separarlos como variables explicativas nos permite hacer contrastes entre ellas, separar las medias, sacar medias considerando la influencia de cada una, etc.). Abajo de los rótulos de EV1, EV2.... hay una casilla para indicar su nombre. 
 En la pestaña de **Contrasts & F-tests**  podemos especificar de qué EV queremos una promedio, ejemplo:   EV1 música , EV2  habla.
 
-[[images/full_model_setup_3level.png]]
-
+.. img:: https://i.imgur.com/OLR8liu.png
 3. En **Post-stat**s se siguen las mismas indicaciones que para el segundo nivel.
