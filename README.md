@@ -25,6 +25,6 @@ Puedes acceder a la documentación completa en la siguiente URL:
 
 Esta plataforma fue diseñada para que los usuarios puedan **contribuir y publicar su propio material**.  
 
-Para conocer los requisitos y el proceso de publicación, por favor, consulta la documentación en el enlace provisto.  
+Para conocer los requisitos y el proceso de publicación, por favor, consulta la documentación en el enlace provisto..  
 
 La información detallada sobre cómo empezar, incluyendo los requisitos y los pasos a seguir, se encuentra en la documentación principal.
