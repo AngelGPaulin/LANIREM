@@ -93,6 +93,8 @@ básicas para la organización:
     comunidad! Simplemente edita el archivo localmente y sigue los pasos para
     proponer tu cambio.
 
+Si deseas mas informacion acerca de sphinx, puedes consultar la entrada de :doc:`Sphinx <sphynx/sphynx>`.
+
 
 Paso 2.4: Compilar Localmente (Opcional pero recomendado)
 ---------------------------------------------------------
