@@ -48,7 +48,7 @@ Para empezar, clona el repositorio de la wiki en tu máquina local.
 
 .. code-block:: bash
 
-   git clone https://github.com/AngelGPaulin/LANIREM.git
+   git clone https://github.com/lconcha/LANIREM.git
 
 
 Paso 2.2: Crear una Nueva Rama
