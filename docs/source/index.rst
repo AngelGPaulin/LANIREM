@@ -40,9 +40,9 @@ Contenido
 
 .. toctree::
    :maxdepth: 1
-   :caption: sphynx
+   :caption: sphinx
 
-   sphynx/sphynx
+   sphinx/sphinx
 
 .. toctree::
    :maxdepth: 1
