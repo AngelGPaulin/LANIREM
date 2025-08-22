@@ -40,7 +40,9 @@ Al terminar veremos que las imágenes están mucho menos distorsionadas:
 
 .. image:: https://i.imgur.com/qBuEtJY.png
 
-**Las imágenes preprocesadas de este tutorial, pre-cocinadas para fines prácticos, se llaman ``dwi_preproc_corrected.{bvec,bval,nii}``.**
+**Las imágenes preprocesadas de este tutorial, pre-cocinadas para fines prácticos, se llaman:.**
+::
+    dwi_preproc_corrected.{bvec,bval,nii}
 
 Tensor de difusión
 -----------------------
@@ -70,14 +72,14 @@ Para finalmente visualizar:
 Tractografía
 -----------------------
 
-Aunque yo soy muy feliz con `mrtrix <https://www.mrtrix.org/>`_, en este documento utilizaré `dsi-studio <https://dsi-studio.labsolver.org/>`_ para hacer tractografía de manera automática. Existen versiones para todos los sistemas operativos. El programa es muy lógico y nos muestra el orden de los pasos que haremos. En este tutorial nos quedaremos en la creación de tractografía, y no lo llevaremos al análisis de conectividad (_connectometry_).
+Aunque yo soy muy feliz con `mrtrix <https://www.mrtrix.org/>`_, en este documento utilizaré `dsi-studio <https://dsi-studio.labsolver.org/>`_ para hacer tractografía de manera automática. Existen versiones para todos los sistemas operativos. El programa es muy lógico y nos muestra el orden de los pasos que haremos. En este tutorial nos quedaremos en la creación de tractografía, y no lo llevaremos al análisis de conectividad *onnectometry*.
 
 Empezamos cargando los datos. Primero que nada, nos aseguramos que tenemos archivos ``.bvec`` y ``.bval`` con el mismo nombre que nuestro archivo ``.nii.gz``. En mi caso tenemos ``dwi_preproc_corrected.nii``, ``dwi_preproc_corrected.bvec``, y ``dwi_preproc_corrected.bval``. 
 
 .. img::https://i.imgur.com/E9FNODn.png
 .. img::https://i.imgur.com/7rkB3e0.png
 
-Al terminar de cargar (unos cuantos segundos), nos mostrará la _B-table_, una tabla que nos muestra los valores $b$, y la dirección del gradiente de difusión. Podemos notar que comenzamos con imágenes $b=0$ (sin vector asociado), y después muchas imágenes DWI con $b=2500 s/mm^2$,  luego otras $b=0$ y finalmente unas DWIs con $b=800$
+Al terminar de cargar (unos cuantos segundos), nos mostrará la *B-table*, una tabla que nos muestra los valores $b$, y la dirección del gradiente de difusión. Podemos notar que comenzamos con imágenes $b=0$ (sin vector asociado), y después muchas imágenes DWI con $b=2500 s/mm^2$,  luego otras $b=0$ y finalmente unas DWIs con $b=800$
 
 .. img::https://i.imgur.com/szy8dSQ.png
 ...
@@ -89,14 +91,13 @@ La parte inferior de esta tabla me pregunta dónde guardar el archivo que se gen
 
 En la pantalla principal de dsi-studio, ahora vemos el archivo que creamos (terminación ``.src.gz``). Le damos doble clic para comenzar a procesar.
 
-En la primer pestaña podemos hacer control de calidad de nuestros datos. Dando clic en cada columna de la _B-table_ podemos ver la imagen correspondiente, y cambiar rebanadas. Los botones nos permiten identificar rebanadas o volúmenes como datos a ignorar (en caso de que tengan artefactos).
+En la primer pestaña podemos hacer control de calidad de nuestros datos. Dando clic en cada columna de la *B-table* podemos ver la imagen correspondiente, y cambiar rebanadas. Los botones nos permiten identificar rebanadas o volúmenes como datos a ignorar (en caso de que tengan artefactos).
 
 .. img:: https://i.imgur.com/ZeBaQg1.png
 
 .. img:: https://i.imgur.com/NrlnfNQ.png
 
 En el siguiente paso generamos una máscara binaria para únicamente procesar donde hay tejido. También seleccionamos el modelo de difusión a ajustar (DTI, GQI, o QSDR). Seleccionaré GQI, y doy clic a **Run Reconstruction**. Como podemos ver, podríamos seleccionar únicamente DTI si nos interesara, pero GQI de todas maneras va a hacer DTI, así que tenemos ambos con mínimo esfuerzo.
-
 
 .. img:: https://i.imgur.com/Hk6k3Nr.png
 
