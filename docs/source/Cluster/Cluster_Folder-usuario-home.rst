@@ -54,7 +54,9 @@ En el caso de los equipos que forma parte del clúster, el directorio home se en
 Y ¿qué debo escribir?
 -----------------------
 
-Es importate señalar, que debido a la configuración de Cluster: ::doc:`Respaldo-de-datos <Cluster_Respaldo-de-datos>` y ::doc:`almacenamiento <Cluster_Folder-almacenamiento-misc>` del clúster, es recomendable que en la carpeta home no se coloquen archivos de gran tamaño, dando preferencía a archivos como scripts, archivos de configuración, documentos. En el caso de requrir guardar archivos que se consideren grandes y que no se deseen respaldar se puede recurrir al uso de la carpeta ::doc:`temporal <Cluster_Folder-temporal-tmp>` o una carpeta con el título nobackup (revisar ::doc:`almacenamiento <Cluster_Folder-almacenamiento-misc>`).
+Es importante señalar que, debido a la configuración del clúster para el :doc:`Respaldo de datos <Cluster_Respaldo-de-datos>` y el :doc:`almacenamiento <Cluster_Folder-almacenamiento-misc>`, es recomendable que en la carpeta ``home`` no se coloquen archivos de gran tamaño. Se debe dar preferencia a archivos como scripts, archivos de configuración y documentos.
+
+En el caso de requerir guardar archivos grandes que no se deseen respaldar, se puede recurrir al uso de la carpeta :doc:`temporal <Cluster_Folder-temporal-tmp>` o a una carpeta llamada ``nobackup`` (revisar :doc:`almacenamiento <Cluster_Folder-almacenamiento-misc>`).
 
 Qué otras cosas hay en ``$HOME``?
 -----------------------
